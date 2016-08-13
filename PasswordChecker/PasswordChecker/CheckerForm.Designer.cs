@@ -1,6 +1,6 @@
 ﻿namespace PasswordChecker
 {
-    partial class Form1
+    partial class CheckerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -57,7 +57,7 @@
             this.check.UseVisualStyleBackColor = true;
             this.check.Click += new System.EventHandler(this.check_Click);
             // 
-            // Form1
+            // CheckerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -65,8 +65,8 @@
             this.Controls.Add(this.check);
             this.Controls.Add(this.password);
             this.Controls.Add(this.login);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "CheckerForm";
+            this.Text = "PasswordChecker for Tibia";
             this.ResumeLayout(false);
             this.PerformLayout();
 
